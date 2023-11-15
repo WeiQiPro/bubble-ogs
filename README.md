@@ -18,7 +18,7 @@ You need to create another HTML element where the Go board will be displayed. Yo
 
 **Data Format:** The data source for this element should contain the `type` of the game (e.g., 'demo' or 'game') and the OGS game `id` (e.g., '1234565'). Ensure that the text within each `div` correctly reflects this data format.
 
-**Example:**
+**Example:** `<div class="goban" id="game-${type}${id}> type:${type}/id:${id} </div>`
 
 ![Board Display Element](https://github.com/WeiQiPro/bubble-ogs/assets/108106416/beceedc6-a72d-4959-8c79-c159df691e11)
 
